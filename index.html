@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll 'Em</title>
+</head>
+<link rel="stylesheet" href="/assets/style.css">
+
+<body>
+    <div id="container">
+
+        <div>
+            <h1>Roll 'Em</h1>
+        </div>
+
+        <div class="userInputBox"><label for="userInputBox">Enter a Number of Dice</label><input type="text"
+                id="userInputBox" name="userInputBox" required minlength="1" maxlength="2" size="2">
+
+        </div><br>
+
+        <button class="roll-button">Roll Em</button><br>
+
+        <div class="total">Total:</div><br>
+
+        <div class="enter4">
+            <label for="enter4">Enter a Number of 4 Sided Dice </label>
+            <input type="text" id="enter4" name="enter4" required minlength="1" maxlength="2" size="2">
+
+        </div><br>
+
+        <button class="roll4">Roll Em 4</button><br>
+
+        <div class="enter8">
+            <label for="enter8">Enter a Number of 8 Sided Dice </label>
+            <input type="text" id="enter8" name="enter8" required minlength="1" maxlength="2" size="2">
+
+        </div><br>
+
+        <button class="roll8">Roll Em 8</button><br>
+
+        <div class="enter10">
+            <label for="enter10">Enter a Number of 10 Sided Dice </label>
+            <input type="text" id="enter10" name="enter10" required minlength="1" maxlength="2" size="2">
+
+        </div><br>
+
+        <button class="roll10">Roll Em 10</button><br>
+
+        <div class="enter12">
+            <label for="enter12">Enter a Number of 12 Sided Dice </label>
+            <input type="text" id="enter12" name="enter12" required minlength="1" maxlength="2" size="2">
+
+        </div><br>
+
+        <button class="roll12">Roll Em 12</button><br>
+
+
+        <div class="enter20">
+            <label for="enter20e">Enter a Number of 20 Sided Dice </label>
+            <input type="text" id="enter20" name="enter20" required minlength="1" maxlength="2" size="2">
+
+        </div><br>
+
+        <button class="roll20">Roll Em 20</button><br>
+
+
+        <button class="show-all-button">Show All Results</button><br>
+
+        <button class="reset">Reset</button><br>
+
+        <ol id="allrolls"></ol>
+
+    </div>
+
+    <script src="./assets/main.js"></script>
+
+</body>
+
+</html>
