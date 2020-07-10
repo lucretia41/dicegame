@@ -1,11 +1,10 @@
-
 const rollbutton = document.querySelector('.roll-button')
-const dieRolls = []
+let dieRolls = []
 const userInputBox = document.querySelector('#userInputBox')
 let totalsElement = document.querySelector('.total')
 const allRollsElement = document.querySelector('.show-all-button')
 const listElement = document.querySelector('ol')
-//const numberofSidesInputBox = document.querySelector('.numberofSidesInputBox')//
+const numberofSidesInputBox = document.querySelector('.numberofSidesInputBox')
 const reset = document.querySelector('.reset')
 const roll4 = document.querySelector('.roll4')
 const enter4 = document.querySelector('#enter4')
@@ -131,6 +130,7 @@ roll20.addEventListener('click', function () {
 })
 
 reset.addEventListener('click', function () {
+    let dieRolls = []
     dieRolls.innerHTML = ""
     listElement.innerHTML = ""
     totalsElement.innerHTML = "" + 'Total:'
